@@ -123,6 +123,36 @@
     opacity: 0.5;
 }
 
+.royal {
+    height: 70px;
+    width: 70px;
+    background-image: url("assets/img/royal-70.png");
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
 .sun {
     width: 70px;
     height: 70px;
