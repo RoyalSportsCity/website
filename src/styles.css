@@ -113,15 +113,12 @@
 
 .main-box {
     position: absolute;
+    top: 90px;
     margin: auto;
-    top: 100px;
-    bottom: 420px;
-    z-index: 5;
+    z-index: 1;
 }
 
-.ball {
-    opacity: 0.5;
-}
+
 
 .royal {
     height: 70px;
@@ -130,7 +127,7 @@
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
-
+    opacity: 1;
 }
 
 @-moz-keyframes spin {
@@ -158,10 +155,8 @@
     height: 70px;
     box-shadow: 0 0 50px rgba(255, 153, 68, 0.7);
     border-radius: 50%;
-    position: absolute;
-    left: 69%;
-    bottom: 320px;
     z-index: 3;
+    top: 100px;
 }
 
 .tree-1 {
