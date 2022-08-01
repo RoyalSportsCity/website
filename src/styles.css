@@ -243,31 +243,6 @@
     opacity: 0.6;
 }
 
-.la {
-    position: absolute;
-    bottom: 200px;
-    width: 2px;
-    height: 50px;
-    background: $cd;
-    margin-right: 20px;
-}
-
-.la:before {
-    top: 5px;
-    left: -10px;
-    width: 22px;
-    height: 2px;
-    background: $cd;
-}
-
-.la:after {
-    bottom: 0;
-    left: -2px;
-    width: 6px;
-    height: 12px;
-    background: $cd;
-}
-
 .l {
     position: absolute;
     width: 5px;
@@ -903,4 +878,12 @@
     border-radius: 50px;
     box-shadow: 100px 0 0 #fff;
     background: #fff;
+}
+
+.background-royal{
+    background-image: url("assets/img/RSC.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+
 }
